@@ -2,14 +2,14 @@
 <!DOCTYPE softwareassembly PUBLIC "-//JTRS//DTD SCA V2.2.2 SAD//EN" "softwareassembly.dtd">
 <softwareassembly id="DCE:a42dfc9d-8aaa-4669-81f6-983d7bf03baf" name="ex.GlobalMessageConsumerWaveform">
   <componentfiles>
-    <componentfile id="MessageConsumer_3039c833-15c7-4f4a-9464-5a2f81c88b62" type="SPD">
-      <localfile name="/components/MessageConsumer/MessageConsumer.spd.xml"/>
+    <componentfile id="ex_b9f5f362-a224-45c9-bdad-d32db7606888" type="SPD">
+      <localfile name="/components/ex/MessageConsumer/ex.MessageConsumer.spd.xml"/>
     </componentfile>
   </componentfiles>
   <partitioning>
     <componentplacement>
-      <componentfileref refid="MessageConsumer_3039c833-15c7-4f4a-9464-5a2f81c88b62"/>
-      <componentinstantiation id="MessageConsumer_1">
+      <componentfileref refid="ex_b9f5f362-a224-45c9-bdad-d32db7606888"/>
+      <componentinstantiation id="MessageConsumer_1" startorder="0">
         <usagename>MessageConsumer_1</usagename>
         <findcomponent>
           <namingservice name="MessageConsumer_1"/>
